@@ -1,0 +1,109 @@
+.efeito:hover{
+    font-size: 18px;
+    color: aliceblue;
+    transition: o.5s;
+}
+ 
+.custom-navbar {
+  background-color: #5a0404;
+  padding: 1rem 0;
+}
+
+.nav-link-custom {
+  color: #ff3636;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  display: inline-block; 
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav-link-custom:hover {
+  text-decoration: underline;
+  color: #f9fcff;
+}
+
+.logo {
+  font-family: Impact, fantasy;
+  font-size: 2.8rem; 
+  letter-spacing: 2px;
+  background: linear-gradient(900deg, #ffffff, #fcdedebb);
+  background-clip: text; 
+  -webkit-text-fill-color: transparent;
+}
+
+.bg{
+  background: radial-gradient(circle, #2e2b2b 20%, #000000 150%);
+}
+
+.subt{
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.8rem;
+  margin-top: 22px; 
+  color: #db2323;
+
+} 
+
+.card{
+  background-color: #4e0303 !important;
+  color: #fd1c1c !important;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+}
+
+body {
+  overflow-x: hidden; 
+}
+
+.card {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+  border-radius: 12px;
+}
+
+.card:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); 
+}
+
+.card-img-top {
+  height: 155px;   
+  object-fit: cover;       
+  width: 100%;             
+}
+
+.form-label {
+  color: #ffffff !important;
+}
+.form-control {
+  background-color: #290909 !important;
+  color: #ee2d2d !important;
+}
+::placeholder {
+  color: #ff3636 !important;
+}
+.subform{
+  color: #ff3636;
+}
+.enviar{
+  background-color: #5a0404 !important;
+  color: #ffffff !important;
+  border: none !important;
+}
+.subti{
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.6rem;
+  margin-top: 15px; 
+  color: #db2323;
+} 
+
+.streanion{
+  position: fixed;
+  bottom: -70px;
+  right: -15px;
+  width: 230px;
+  z-index: 1000;
+}
