@@ -1,0 +1,248 @@
+.efeito:hover{
+    font-size: 18px;
+    color: aliceblue;
+    transition: o.5s;
+}
+ 
+.custom-navbar {
+  background-color: #5a0404;
+  padding: 1rem 0;
+}
+
+.nav-link-custom {
+  color: #ff3636;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  display: inline-block; 
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav-link-custom:hover {
+  text-decoration: underline;
+  color: #f9fcff;
+}
+
+.logo {
+  font-family: Impact, fantasy;
+  font-size: 2.8rem; 
+  letter-spacing: 2px;
+  background: linear-gradient(900deg, #ffffff, #fcdedebb);
+  background-clip: text; 
+  -webkit-text-fill-color: transparent;
+}
+
+.bg{
+  background: radial-gradient(circle, #2e2b2b 20%, #000000 150%);
+}
+
+.subt{
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.8rem;
+  margin-top: 22px; 
+  color: #db2323;
+
+} 
+
+.card{
+  background-color: #4e0303 !important;
+  color: #fd1c1c !important;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+}
+
+body {
+  overflow-x: hidden; 
+}
+
+.card {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+  border-radius: 12px;
+}
+
+.card:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); 
+}
+
+.card-img-top {
+  height: 155px;   
+  object-fit: cover;       
+  width: 100%;             
+}
+
+.form-label {
+  color: #ffffff !important;
+}
+.form-control {
+  background-color: #290909 !important;
+  color: #ee2d2d !important;
+}
+::placeholder {
+  color: #ff3636 !important;
+}
+.subform{
+  color: #ff3636;
+}
+.enviar{
+  background-color: #5a0404 !important;
+  color: #ffffff !important;
+  border: none !important;
+}
+.subti{
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.6rem;
+  margin-top: 15px; 
+  color: #db2323;
+} 
+
+.streanion{
+  position: fixed;
+  bottom: -70px;
+  right: -15px;
+  width: 230px;
+  z-index: 1000;
+}
+
+
+body.bg {
+  background-color: #333; /* Cor escura para o fundo, você pode alterar conforme seu gosto */
+}
+
+section {
+  background-color: #333;
+  padding: 40px 20px; 
+  border-radius: 8px; 
+}
+
+
+section h2 {
+  color: white; 
+  font-size: 2rem; 
+  font-weight: bold; 
+  margin-bottom: 20px; 
+}
+
+
+section p {
+  color: white; 
+  font-size: 1.2rem; 
+  line-height: 1.6; 
+  margin-bottom: 15px; 
+}
+
+.titulo-titulo {
+  color: red !important;
+}
+a {
+  text-decoration: none !important;
+}
+
+/* Ajustes para a página de avaliação */
+
+h2.text-center {
+  color: #ffffff;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+img.img-fluid {
+  max-width: 80%; 
+  margin: 0 auto;
+  display: block;
+  border-radius: 8px;
+}
+
+
+.container.mt-5 {
+  margin-top: 40px;
+}
+
+.row.mt-4 {
+  margin-top: 40px;
+}
+
+h4 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #f9fcff;
+}
+
+h4 + p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #d8e1e9;
+}
+
+/* Box para o conteúdo da avaliação */
+.col-md-8.offset-md-2 {
+  background-color: #290909; /* Usando a cor de fundo que você já definiu */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(238, 0, 0, 0.1);
+}
+
+
+
+
+.container.my-5 {
+    color: #000000;
+}
+
+/* Cabeçalho */
+.custom-table thead th {
+    background-color: #520303 !important;
+    color: hsl(0, 92%, 53%) !important;
+    font-size: 18px;
+    padding: 12px;
+    border: 2px solid #231e1e !important;
+}
+
+/* Células */
+.custom-table tbody td {
+    background-color: #000000 !important;
+    border: 2px solid #231e1e !important;
+    padding: 12px 15px !important;
+    color: #ffffff !important;
+    font-size: 17px;
+}
+
+/* Nome do filme */
+.custom-table tbody td:first-child {
+    color: #ffffff !important;
+    font-weight: bold;
+}
+
+/* Ano */
+.custom-table tbody td:nth-child(2) {
+    text-align: center;
+}
+
+/* Estrelas */
+.star-rating i,
+.custom-table tbody td i {
+    color: #ffd700 !important;
+    font-size: 22px;
+    margin-right: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
